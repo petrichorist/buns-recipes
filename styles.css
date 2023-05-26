@@ -45,6 +45,9 @@ h1 {
     font-size: 30px;
 }
 
-ul {
+ul,
+a {
     list-style: square;
+    list-style-position: inside;
+    font-size: 25px;
 }
