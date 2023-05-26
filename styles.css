@@ -45,7 +45,7 @@ h1 {
     font-size: 30px;
 }
 
-ul,
+ul.index-list,
 a {
     list-style: square;
     list-style-position: inside;
