@@ -11,7 +11,7 @@ img {
     border-radius: 10px;
 }
 
-img.index-image {
+.index-image {
     width: 640px;
 }
 
@@ -39,14 +39,13 @@ h6 {
     font-family: sans-serif;
 }
 
-h1 {
+#header {
     color: white;
     text-align: center;
     font-size: 30px;
 }
 
-ul.index-list,
-a.index-list {
+.index-list {
     list-style: square;
     list-style-position: inside;
     font-size: 26px;
