@@ -1,32 +1,57 @@
 body {
-    background-color: black;
+  background-color: black;
+}
+
+#header {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.hr-index {
+  border: 1.5px solid grey;
+}
+
+.index-list {
+  text-align: center;
+  list-style: none;
+  font-size: 50px;
+  margin-top: 20px;
+}
+
+.body-box {
+  margin-top: 30px;
+  margin-right: 30px;
+  margin-bottom: 40px;
+  margin-left: 30px;
 }
 
 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-    width: 500px;
-    border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 800px;
+  border-radius: 10px;
 }
 
 .index-image {
-    width: 640px;
+  width: 850px;
 }
 
 p,
 ol,
 ul,
 a {
-    color: white;
-    font-family: sans-serif;
-    font-weight: 300;
-    font-size: 20px
+  color: white;
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 20px;
 }
 
 a {
-    color: goldenrod;
+  color: goldenrod;
 }
 
 h1,
@@ -35,18 +60,6 @@ h3,
 h4,
 h5,
 h6 {
-    color: white;
-    font-family: sans-serif;
-}
-
-#header {
-    color: white;
-    text-align: center;
-    font-size: 30px;
-}
-
-.index-list {
-    list-style: square;
-    list-style-position: inside;
-    font-size: 26px;
+  color: white;
+  font-family: sans-serif;
 }
