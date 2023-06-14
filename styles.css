@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('./fonts/inter.ttf') format('truetype'),
+}
+
+* {
+  font-family: Inter, Arial, sans-serif;
+  line-height: 1.2;
+}
+
 body {
   background-color: black;
 }
@@ -46,9 +56,8 @@ ol,
 ul,
 a {
   color: white;
-  font-family: sans-serif;
-  font-weight: 300;
-  font-size: 20px;
+  font-weight: 300px;
+  font-size: 24px;
 }
 
 a {
@@ -62,5 +71,4 @@ h4,
 h5,
 h6 {
   color: white;
-  font-family: sans-serif;
 }
