@@ -51,13 +51,18 @@ img {
   width: 850px;
 }
 
+.parting-note {
+  margin-top: 35px;
+  margin-bottom: 65px;
+}
+
 p,
 ol,
 ul,
 a {
   color: white;
-  font-weight: 300px;
-  font-size: 24px;
+  font-weight: 500;
+  font-size: 25px;
 }
 
 a {
