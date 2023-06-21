@@ -19,7 +19,7 @@ body {
 #header {
   color: white;
   text-align: center;
-  font-size: 70px;
+  font-size: 50px;
   font-weight: 1000;
   margin: 20px auto 10px;
 }
@@ -31,7 +31,7 @@ hr {
 .index-list {
   text-align: center;
   list-style: none;
-  font-size: 50px;
+  font-size: 35px;
   font-weight: bold;
   margin-top: 20px;
   padding-left: 0;
@@ -47,7 +47,7 @@ img {
 }
 
 .index-image {
-  width: 850px;
+  width: 480px;
 }
 
 .parting-note {
