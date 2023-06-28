@@ -4,18 +4,19 @@
 }
 
 * {
+  box-sizing: border-box;;
   font-family: Inter, Arial, sans-serif;
   line-height: 30px;
 }
 
 body {
   background-color: black;
-  width: 900px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
-.index-image {
-  width: 580px;
+img.index-image {
+  max-width: 580px;
   margin: 15px auto;
   margin-bottom: -5px;
 }
@@ -26,11 +27,11 @@ img {
   margin-right: auto;
   margin-bottom: 30px;
   height: auto;
-  width: 800px;
+  max-width: 800px;
   border-radius: 10px;
 }
 
-.parting-note {
+p.parting-note {
   margin-top: 35px;
   margin-bottom: 65px;
 }
@@ -67,7 +68,7 @@ a {
   line-height: 40px;
 }
 
-.nav-links {
+a.nav-links {
   font-weight: 1000;
 }
 
