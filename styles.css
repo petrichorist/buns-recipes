@@ -11,23 +11,27 @@
 
 body {
   background-color: black;
-  max-width: 900px;
+  width: 900px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
 img.index-image {
-  max-width: 580px;
+  width: 580px;
+  max-width: 100%;
+  height: auto;
   margin: 15px auto;
   margin-bottom: -5px;
 }
 
 img {
   display: block;
+  height: auto;
+  width: 800px;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
-  height: auto;
-  max-width: 800px;
   border-radius: 10px;
 }
 
