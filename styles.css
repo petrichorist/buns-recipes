@@ -17,7 +17,7 @@ body {
 }
 
 div {
-  padding: 0% 10% 0% 5%;
+  padding: 0% 1% 0% 1%;
 }
 
 img.index-image {
@@ -28,10 +28,15 @@ img.index-image {
   margin-bottom: -5px;
 }
 
+.rec-image {
+  display: flex;
+  justify-content: center;
+}
+
 img {
   display: block;
   width: 900px;
-  max-width: 110%;
+  max-width: 105%;
   height: auto;
   margin-left: auto;
   margin-right: auto;
