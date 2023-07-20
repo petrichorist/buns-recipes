@@ -9,15 +9,8 @@
   line-height: 30px;
 }
 
-/* body {
-  background-color: black;
-  width: 900px;
-  max-width: 100%;
-  margin: 0 auto;
-} */
-
 body {
-  background-color: black;
+  background-color: #0e111a;
   width: 900px;
   max-width: 100%;
   margin: 0 auto;
@@ -27,40 +20,17 @@ div {
   padding: 0% 1% 0% 1%;
 }
 
-/* img.index-image {
-  width: 580px;
-  max-width: 100%;
-  height: auto;
-  margin: 15px auto;
-  margin-bottom: -5px;
-} */
-
 img.index-image {
   width: 580px;
   max-width: 100%;
   height: auto;
   margin: 15px auto;
+  margin-bottom: -5px;
 }
-
-/* .rec-image {
-  display: flex;
-  justify-content: center;
-} */
 
 img.rec-image {
   margin: auto;
 }
-
-/* img {
-  display: block;
-  width: 900px;
-  max-width: 105%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 30px;
-  border-radius: 10px;
-} */
 
 img {
   display: block;
