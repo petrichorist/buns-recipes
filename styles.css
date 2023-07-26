@@ -10,7 +10,7 @@
 }
 
 body {
-  background-color: #0e111a;
+  background: #000;
   width: 900px;
   max-width: 100%;
   margin: 0 auto;
@@ -47,11 +47,12 @@ p.parting-note {
 }
 
 hr {
-  border: 1.5px solid grey;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
 }
 
 #header {
-  color: white;
   text-align: center;
   font-size: 50px;
   font-weight: 1000;
@@ -59,11 +60,15 @@ hr {
   line-height: 50px;
 }
 
+.index-header {
+  color: #fff;
+}
+
 p,
 ol,
 ul,
 a {
-  color: white;
+  color: #fff;
   font-size: 20px;
   font-weight: 400;
 }
@@ -88,11 +93,11 @@ h3,
 h4,
 h5,
 h6 {
-  color: white;
+  color: #fff;
 }
 
 a {
-  color: #8cbcf2;
+  color: #ff0000c4;
 }
 
 .ingredients,
@@ -105,4 +110,35 @@ a {
   text-align: center;
   font-weight: 500;
   font-size: 24px;
+}
+
+.lasagna-list:hover:before,
+.lasagna-header:hover:before {
+  content: "ラザニア";
+}
+
+.stir-fry-list:hover:before,
+.stir-fry-header:hover:before {
+  content: "牛肉炒め";
+}
+
+.hamburger-list:hover:before,
+.hamburger-header:hover:before {
+  content: "ハンバーガー";
+}
+
+.noodles-list:hover:before,
+.noodles-header:hover:before {
+  content: "炸醤麺";
+}
+
+.lasagna-header:hover span,
+.lasagna-list:hover span,
+.stir-fry-header:hover span,
+.stir-fry-list:hover span,
+.hamburger-header:hover span,
+.hamburger-list:hover span,
+.noodles-header:hover span,
+.noodles-list:hover span {
+  display: none;
 }
