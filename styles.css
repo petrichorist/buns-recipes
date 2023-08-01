@@ -10,7 +10,7 @@
 }
 
 body {
-  background: #000;
+  background-color: #141928;
   width: 900px;
   max-width: 100%;
   margin: 0 auto;
@@ -21,15 +21,11 @@ div {
 }
 
 img.index-image {
-  width: 580px;
+  width: 650px;
   max-width: 100%;
   height: auto;
   margin: 15px auto;
   margin-bottom: -5px;
-}
-
-img.rec-image {
-  margin: auto;
 }
 
 img {
@@ -50,6 +46,7 @@ hr {
   border: 0;
   height: 1px;
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+  margin: 0 0 -6px 0;
 }
 
 #header {
@@ -58,10 +55,6 @@ hr {
   font-weight: 1000;
   margin: 20px auto 10px;
   line-height: 50px;
-}
-
-.index-header {
-  color: #fff;
 }
 
 p,
@@ -73,18 +66,18 @@ a {
   font-weight: 400;
 }
 
+a.nav-links {
+  font-weight: 1000;
+}
+
 .index-list {
   text-align: center;
   list-style: none;
-  font-size: 35px;
+  font-size: 45px;
   font-weight: bold;
   margin-top: 10px;
   padding-left: 0;
-  line-height: 40px;
-}
-
-a.nav-links {
-  font-weight: 1000;
+  line-height: 50px;
 }
 
 h1,
@@ -97,7 +90,7 @@ h6 {
 }
 
 a {
-  color: #ff0000c4;
+  color: #e0a7eac4;
 }
 
 .ingredients,
