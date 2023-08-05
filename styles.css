@@ -3,21 +3,28 @@
   src: url('./fonts/inter-regular.ttf') format('truetype'),
 }
 
-* {
+*, *::before, *::after {
   box-sizing: border-box;
   font-family: Inter, Arial, sans-serif;
   line-height: 30px;
 }
 
 body {
-  background: linear-gradient(#000000, #0d1e2c);
-  width: 100vh;
-  max-width: 100%;
+  background: linear-gradient(rgb(0, 0, 0), rgb(13, 30, 44));
+  max-width: 100vh;
   margin: 0 auto;
 }
 
+p,
+ol,
+ul {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 400;
+}
+
 #index-body {
-  background: #000000;
+  background: rgb(0, 0, 0);
   margin-top: 70px;
 }
 
@@ -62,14 +69,6 @@ hr {
   line-height: 50px;
 }
 
-p,
-ol,
-ul {
-  color: #ffffff;
-  font-size: 20px;
-  font-weight: 400;
-}
-
 a.nav-links {
   font-weight: 1000;
 }
@@ -84,19 +83,6 @@ a.nav-links {
   line-height: 50px;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: #ffffff;
-}
-
-a {
-  color: #4abddabe;
-}
-
 .ingredients,
 .instructions {
   padding-left: 0;
@@ -107,6 +93,23 @@ a {
   text-align: center;
   font-weight: 500;
   font-size: 24px;
+}
+
+::marker {
+  color: rgba(255, 255, 255, 0.418);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: rgb(255, 255, 255);
+}
+
+a {
+  color: rgba(74, 189, 218, 0.745);
 }
 
 .lasagna-list:hover:before,
