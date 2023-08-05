@@ -18,7 +18,7 @@ body {
 
 #index-body {
   background: rgb(0, 0, 0);
-  margin-top: 40px;
+  margin-top: 5%;
 }
 
 p,
@@ -39,11 +39,11 @@ img,
   width: 900px;
   max-width: 100%;
   height: auto;
-  margin: 30px 0 20px 0;
+  margin: 30px auto 20px auto;
   border-radius: 10px;
 }
 
-img.index-image {
+.index-image {
   width: 950px;
   height: auto;
   margin: 15px auto -5px auto;
@@ -62,7 +62,7 @@ hr {
 
 #header {
   text-align: center;
-  font-size: 50px;
+  font-size: 46px;
   font-weight: 1000;
   margin: 20px auto 10px;
   line-height: 50px;
