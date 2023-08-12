@@ -10,10 +10,8 @@
 }
 
 body {
-  display: flex;
-  flex-direction: column;
   background: linear-gradient(rgb(0, 0, 0), rgb(21, 45, 65));
-  max-width: 100vh;
+  max-width: 50vw;
   margin: 0 auto;
   padding: 0 1.5em;
 }
@@ -26,8 +24,14 @@ p,
 ol,
 ul {
   color: rgb(255, 255, 255);
-  font-size: 15px;
+  font-size: 1.5rem;
   font-weight: 400;
+}
+
+hr {
+  border: 0;
+  height: 0.2vh;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
 }
 
 div {
@@ -36,7 +40,7 @@ div {
 
 img {
   display: block;
-  width: 90vw;
+  width: 100vw;
   max-width: 100%;
   height: auto;
   margin: 2% auto 2% auto;
@@ -48,20 +52,14 @@ img {
 }
 
 .parting-note {
-  margin: 8% 0 12% 0;
+  margin: 4% 0 10% 0;
   font-weight: 500;
-}
-
-hr {
-  border: 0;
-  height: 0.2vh;
-  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
 }
 
 #header,
 #index-header {
   text-align: center;
-  font-size: 3em;
+  font-size: 3.5em;
   font-weight: 1000;
   margin: 3%;
   line-height: 110%;
@@ -80,16 +78,21 @@ hr {
   padding: 0;
 }
 
+.ingredients {
+  list-style: none;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.5em;
+}
+
 .ingredients,
 .instructions {
   padding-left: 0;
 }
 
+.description,
 .ingredients {
-  list-style: none;
-  text-align: center;
-  font-weight: 500;
-  font-size: 1.2em;
+  margin-bottom: 3rem;
 }
 
 ::marker {
@@ -109,33 +112,33 @@ a {
   color: rgba(163, 226, 241, 0.87);
 }
 
-.lasagna-list:hover:before,
+#lasagna-list:hover:before,
 .lasagna-header:hover:before {
   content: "ラザニア";
 }
 
-.stir-fry-list:hover:before,
+#stir-fry-list:hover:before,
 .stir-fry-header:hover:before {
   content: "牛肉炒め";
 }
 
-.hamburger-list:hover:before,
+#hamburger-list:hover:before,
 .hamburger-header:hover:before {
   content: "ハンバーガー";
 }
 
-.noodles-list:hover:before,
+#noodles-list:hover:before,
 .noodles-header:hover:before {
   content: "炸醤麺";
 }
 
 .lasagna-header:hover span,
-.lasagna-list:hover span,
+#lasagna-list:hover span,
 .stir-fry-header:hover span,
-.stir-fry-list:hover span,
+#stir-fry-list:hover span,
 .hamburger-header:hover span,
-.hamburger-list:hover span,
+#hamburger-list:hover span,
 .noodles-header:hover span,
-.noodles-list:hover span {
+#noodles-list:hover span {
   display: none;
 }
