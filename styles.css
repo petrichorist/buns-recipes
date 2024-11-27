@@ -1,9 +1,11 @@
 @font-face {
   font-family: 'Inter';
-  src: url('./fonts/inter-regular.ttf') format('truetype'),
+  src: url('./fonts/inter-regular.ttf') format('truetype');
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   font-family: Inter, Arial, sans-serif;
   line-height: 120%;
@@ -31,7 +33,12 @@ ul {
 hr {
   border: 0;
   height: 0.2vh;
-  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.75),
+    rgba(255, 255, 255, 0)
+  );
 }
 
 div {
@@ -114,22 +121,22 @@ a {
 
 #lasagna-list:hover:before,
 .lasagna-header:hover:before {
-  content: "ラザニア";
+  content: 'ラザニア';
 }
 
 #stir-fry-list:hover:before,
 .stir-fry-header:hover:before {
-  content: "牛肉炒め";
+  content: '牛肉炒め';
 }
 
 #hamburger-list:hover:before,
 .hamburger-header:hover:before {
-  content: "ハンバーガー";
+  content: 'ハンバーガー';
 }
 
 #noodles-list:hover:before,
 .noodles-header:hover:before {
-  content: "炸醤麺";
+  content: '炸醤麺';
 }
 
 .lasagna-header:hover span,

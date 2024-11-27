@@ -1,2 +1,3 @@
 # INFO
-A recipes website written in HTML and CSS. 
+
+A recipes website written in HTML and CSS.
