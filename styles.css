@@ -7,19 +7,22 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  font-family: Inter, Arial, sans-serif;
-  line-height: 120%;
+  line-height: 1.15;
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  font-family: Inter, Arial, sans-serif;
   background: linear-gradient(rgb(0, 0, 0), rgb(21, 45, 65));
-  max-width: 50vw;
+  min-height: 100vh;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 0 1.5em;
 }
 
-.index-body {
-  background: black;
+.container {
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 p,
@@ -39,10 +42,6 @@ hr {
     rgba(255, 255, 255, 0.75),
     rgba(255, 255, 255, 0)
   );
-}
-
-div {
-  padding: 0% 1% 0% 1%;
 }
 
 img {
@@ -66,7 +65,7 @@ img {
 #header,
 #index-header {
   text-align: center;
-  font-size: 3.5em;
+  font-size: 4em;
   font-weight: 1000;
   margin: 3%;
   line-height: 110%;
@@ -74,12 +73,13 @@ img {
 
 .nav-links {
   font-weight: 1000;
+  margin-bottom: 3em;
 }
 
 .index-list {
   text-align: center;
   list-style: none;
-  font-size: 35px;
+  font-size: 3em;
   font-weight: bold;
   margin-top: 1%;
   padding: 0;
@@ -119,33 +119,56 @@ a {
   color: rgba(163, 226, 241, 0.87);
 }
 
-#lasagna-list:hover:before,
-.lasagna-header:hover:before {
-  content: 'ラザニア';
-}
-
-#stir-fry-list:hover:before,
-.stir-fry-header:hover:before {
-  content: '牛肉炒め';
-}
-
-#hamburger-list:hover:before,
-.hamburger-header:hover:before {
-  content: 'ハンバーガー';
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 #noodles-list:hover:before,
 .noodles-header:hover:before {
   content: '炸醤麺';
+  animation: fadeIn 0.5s;
 }
 
-.lasagna-header:hover span,
-#lasagna-list:hover span,
-.stir-fry-header:hover span,
-#stir-fry-list:hover span,
+#hamburger-list:hover:before,
+.hamburger-header:hover:before {
+  content: 'ハンバーガー';
+  animation: fadeIn 0.5s;
+}
+
+#stir-fry-list:hover:before,
+.stir-fry-header:hover:before {
+  content: '牛肉炒め';
+  animation: fadeIn 0.5s;
+}
+
+#lasagna-list:hover:before,
+.lasagna-header:hover:before {
+  content: 'ラザニア';
+  animation: fadeIn 0.25s;
+}
+
+.noodles-header:hover span,
+#noodles-list:hover span,
 .hamburger-header:hover span,
 #hamburger-list:hover span,
-.noodles-header:hover span,
-#noodles-list:hover span {
+.stir-fry-header:hover span,
+#stir-fry-list:hover span,
+.lasagna-header:hover span,
+#lasagna-list:hover span {
   display: none;
+}
+
+footer {
+  color: #ffffff;
+  background-color: #1e5d7c;
+  width: 100%;
+  height: 8px;
+  margin-top: auto;
+  padding: 16px 0 32px;
+  text-align: center;
 }
