@@ -20,12 +20,12 @@ body {
   margin: 0 auto;
 }
 
-p,
-ol,
-ul {
-  color: #ffffff;
-  font-size: 1.5rem;
-  font-weight: 400;
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 2% auto;
+  border-radius: 0.5rem;
 }
 
 hr {
@@ -34,64 +34,12 @@ hr {
   background-image: linear-gradient(to right, #ffffff00, #ffffffbf, #ffffff00);
 }
 
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  margin: 2% auto;
-  border-radius: 10px;
-}
-
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.index-image {
-  margin: 4% auto 2% auto;
-}
-
-.parting-note {
-  margin: 4% 0 10% 0;
-  font-weight: 500;
-}
-
-.nav-links {
-  font-weight: 1000;
-}
-
-.index-list {
-  text-align: center;
-  list-style: none;
-  font-size: 3em;
-  font-weight: bold;
-  margin-top: 1%;
-  padding: 0;
-}
-
-.desc {
-  padding: 10px;
-}
-
-.ingredients {
-  list-style: none;
-  text-align: center;
-  font-weight: 500;
-  font-size: 1.5em;
-}
-
-.ingredients,
-.instructions {
-  padding-left: 0;
-}
-
-.description,
-.ingredients {
-  margin-bottom: 5rem;
-}
-
-::marker {
-  color: #ffffff6b;
+p,
+ol,
+ul {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 350;
 }
 
 h1,
@@ -111,16 +59,68 @@ footer {
   color: #ffffff;
   background-color: #1e5d7c;
   width: 100%;
-  height: 8px;
+  height: 2rem;
   margin-top: auto;
-  padding: 16px 0 32px;
+  padding: 1rem 0 2rem;
   text-align: center;
+}
+
+.index-image {
+  margin: 4% auto 2% auto;
+}
+
+.index-list {
+  text-align: center;
+  list-style: none;
+  font-size: 3rem;
+  font-weight: 750;
+  margin-top: 1%;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.desc {
+  padding: 10px;
+}
+
+.ingredients {
+  list-style: none;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.ingredients,
+.instructions {
+  padding-left: 0;
+}
+
+.description,
+.ingredients {
+  margin-bottom: 5rem;
+}
+
+.parting-note {
+  margin: 4% 0 10% 0;
+  font-weight: 350;
+}
+
+.nav-links {
+  font-weight: 1000;
+}
+
+::marker {
+  color: #ffffff6b;
 }
 
 #header,
 #index-header {
   text-align: center;
-  font-size: 4em;
+  font-size: 4rem;
   font-weight: 1000;
   margin: 3%;
   line-height: 110%;
