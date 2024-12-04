@@ -7,28 +7,28 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  line-height: 1.15;
+  line-height: 1.25;
 }
 
 body {
   display: flex;
   flex-direction: column;
   font-family: Inter, Arial, sans-serif;
-  background: linear-gradient(rgb(0, 0, 0), rgb(21, 45, 65));
+  background: linear-gradient(#000000, #152d41);
   min-height: 100vh;
   max-width: 100%;
   margin: 0 auto;
 }
 
 .container {
-  max-width: 700px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
 p,
 ol,
 ul {
-  color: rgb(255, 255, 255);
+  color: #ffffff;
   font-size: 1.5rem;
   font-weight: 400;
 }
@@ -36,20 +36,14 @@ ul {
 hr {
   border: 0;
   height: 0.2vh;
-  background-image: linear-gradient(
-    to right,
-    rgba(255, 255, 255, 0),
-    rgba(255, 255, 255, 0.75),
-    rgba(255, 255, 255, 0)
-  );
+  background-image: linear-gradient(to right, #ffffff00, #ffffffbf, #ffffff00);
 }
 
 img {
   display: block;
-  width: 100vw;
   max-width: 100%;
   height: auto;
-  margin: 2% auto 2% auto;
+  margin: 2% auto;
   border-radius: 10px;
 }
 
@@ -73,7 +67,6 @@ img {
 
 .nav-links {
   font-weight: 1000;
-  margin-bottom: 3em;
 }
 
 .index-list {
@@ -83,6 +76,10 @@ img {
   font-weight: bold;
   margin-top: 1%;
   padding: 0;
+}
+
+#desc {
+  padding: 10px;
 }
 
 .ingredients {
@@ -99,11 +96,11 @@ img {
 
 .description,
 .ingredients {
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
 }
 
 ::marker {
-  color: rgba(255, 255, 255, 0.418);
+  color: #ffffff6b;
 }
 
 h1,
@@ -112,53 +109,92 @@ h3,
 h4,
 h5,
 h6 {
-  color: rgb(255, 255, 255);
+  color: #ffffff;
 }
 
 a {
-  color: rgba(163, 226, 241, 0.87);
+  color: #9fd6e4de;
 }
 
-@keyframes fadeIn {
+@keyframes noodles {
   from {
+    content: 'Fried Sauce Noodles';
+  }
+  40% {
     opacity: 0;
   }
   to {
-    opacity: 1;
+    content: '炸醤麺';
+  }
+}
+
+@keyframes hamburger {
+  from {
+    content: 'Hamburger';
+  }
+  40% {
+    opacity: 0;
+  }
+  to {
+    content: 'ハンバーガー';
+  }
+}
+
+@keyframes stir-fry {
+  from {
+    content: 'Japanese Beef Stir-Fry';
+  }
+  40% {
+    opacity: 0;
+  }
+  to {
+    content: '牛肉炒め';
+  }
+}
+
+@keyframes lasagna {
+  from {
+    content: 'Lasagna';
+  }
+  40% {
+    opacity: 0;
+  }
+  to {
+    content: 'ラザニア';
   }
 }
 
 #noodles-list:hover:before,
-.noodles-header:hover:before {
+.noodles-header:before {
   content: '炸醤麺';
-  animation: fadeIn 0.5s;
+  animation: noodles 2s;
 }
 
 #hamburger-list:hover:before,
-.hamburger-header:hover:before {
+.hamburger-header:before {
   content: 'ハンバーガー';
-  animation: fadeIn 0.5s;
+  animation: hamburger 2s;
 }
 
 #stir-fry-list:hover:before,
-.stir-fry-header:hover:before {
+.stir-fry-header:before {
   content: '牛肉炒め';
-  animation: fadeIn 0.5s;
+  animation: stir-fry 2s;
 }
 
 #lasagna-list:hover:before,
-.lasagna-header:hover:before {
+.lasagna-header:before {
   content: 'ラザニア';
-  animation: fadeIn 0.25s;
+  animation: lasagna 2s;
 }
 
-.noodles-header:hover span,
+.noodles-header span,
 #noodles-list:hover span,
-.hamburger-header:hover span,
+.hamburger-header span,
 #hamburger-list:hover span,
-.stir-fry-header:hover span,
+.stir-fry-header span,
 #stir-fry-list:hover span,
-.lasagna-header:hover span,
+.lasagna-header span,
 #lasagna-list:hover span {
   display: none;
 }
