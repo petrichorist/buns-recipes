@@ -7,7 +7,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  line-height: 1.25;
+  line-height: 1.5;
 }
 
 body {
@@ -80,6 +80,7 @@ footer {
 
 .container {
   max-width: 800px;
+  padding: 0 2.6rem;
   margin: 0 auto;
 }
 
@@ -93,7 +94,6 @@ footer {
   font-weight: 500;
   font-size: 1.5rem;
 }
-
 .ingredients,
 .instructions {
   padding-left: 0;
