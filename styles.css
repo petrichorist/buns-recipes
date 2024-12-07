@@ -152,14 +152,14 @@ footer {
   animation: lasagna 8s;
 }
 
-.noodles-header span,
 #noodles-list:hover span,
-.hamburger-header span,
 #hamburger-list:hover span,
-.stir-fry-header span,
 #stir-fry-list:hover span,
-.lasagna-header span,
-#lasagna-list:hover span {
+#lasagna-list:hover span,
+.noodles-header span,
+.hamburger-header span,
+.stir-fry-header span,
+.lasagna-header span {
   display: none;
 }
 
