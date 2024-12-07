@@ -30,7 +30,7 @@ img {
 
 hr {
   border: 0;
-  height: 0.2vh;
+  height: 2px;
   background-image: linear-gradient(to right, #ffffff00, #ffffffbf, #ffffff00);
 }
 
