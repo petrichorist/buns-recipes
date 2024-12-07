@@ -165,7 +165,7 @@ footer {
 
 @keyframes noodles {
   from {
-    content: 'Fried Sauce Noodles';
+    content: 'Jajangmyeon';
   }
   25% {
     opacity: 1;
@@ -189,7 +189,7 @@ footer {
 
 @keyframes stir-fry {
   from {
-    content: 'Japanese Beef Stir-Fry';
+    content: 'Beef Stir-Fry';
   }
   25% {
     opacity: 1;
