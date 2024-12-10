@@ -115,7 +115,7 @@ footer {
   position: fixed;
   bottom: 0;
   right: 0;
-  background: #266e92;
+  background: #266e92cc;
   border-radius: 24px;
   margin: 32px;
   width: 80px;
@@ -128,7 +128,7 @@ footer {
 }
 
 .home:hover {
-  background: #2b79a0;
+  background: #2b79a0cc;
   cursor: pointer;
 }
 
@@ -148,25 +148,25 @@ footer {
 #noodles-list:hover:before,
 .noodles-header:before {
   content: '炸醤麺';
-  animation: noodles 8s;
+  animation: noodles 7s;
 }
 
 #hamburger-list:hover:before,
 .hamburger-header:before {
   content: 'ハンバーガー';
-  animation: hamburger 8s;
+  animation: hamburger 7s;
 }
 
 #stir-fry-list:hover:before,
 .stir-fry-header:before {
   content: '牛肉炒め';
-  animation: stir-fry 8s;
+  animation: stir-fry 7s;
 }
 
 #lasagna-list:hover:before,
 .lasagna-header:before {
   content: 'ラザニア';
-  animation: lasagna 8s;
+  animation: lasagna 7s;
 }
 
 #noodles-list:hover span,
